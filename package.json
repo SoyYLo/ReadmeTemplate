@@ -1,5 +1,15 @@
 {
   "dependencies": {
-    "inquirer": "^9.2.23"
-  }
+    "inquirer": "^8.2.4"
+  },
+  "name": "readmetemplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
