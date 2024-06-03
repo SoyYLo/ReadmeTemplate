@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   if (license === "N/A") {
     return ""
   }
-  return `![License](https://img.shields.io/badge/License-${license}-purple.svg)`
+  return `![License](https://img.shields.io/badge/License-${license}-lavender.svg)`
 }
 
 // TODO: Create a function that returns the license link
@@ -35,10 +35,12 @@ function generateMarkdown(data) {
  - [UserStory](#userstory)
  - [Description](#description)
  - [Usage](#usage)
+ - [Installation](#installation)
  - [Link](#link)
  - [Resources](#resources)
  - [Contributors](#contributors)
-   ${renderLicenseLink(data.license)}
+  ${renderLicenseLink(data.license)}
+ - [Questions](#questions)
 
   ## UserStory
   ${data.userStory}
@@ -60,7 +62,7 @@ function generateMarkdown(data) {
   Contact Me:
   - Name: ${data.name}
   - Email: ${data.email}
-  - GitHub ${data.creator}
+  - GitHub: ${data.creator}
 
 
   ${renderLicenseSection(data.license)}

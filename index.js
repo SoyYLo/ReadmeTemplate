@@ -9,7 +9,17 @@ const questions = [
     {
         type: 'input',
         name: 'name',
-        message: 'What is your first name?',
+        message: 'What is your Github name?',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please enter your email.',
+    },
+    {
+        type: 'input',
+        name: 'creator',
+        message: 'Please provide a link to your Github.',
     },
     {
         type: 'input',
