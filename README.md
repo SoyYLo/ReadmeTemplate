@@ -26,5 +26,16 @@ I am able to click on links in the Table of Contents section and I will automati
 ## Installation
 npm i inquirer@8.2.4
 
-## Link
+## Resources
+https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+
+https://www.w3schools.com/js/js_if_else.asp
+
+https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+
+https://heynode.com/tutorial/create-packagejson-file/
+
+## Demo Link
+
+https://drive.google.com/drive/folders/1jR1KjJwbtQUZQN9rGWYdE1_NNL05QpBY?usp=sharing
 
